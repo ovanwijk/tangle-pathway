@@ -1,0 +1,38 @@
+{
+    "name": "tangle-pathway",
+    "version": "1.0.0",
+    "description": "A space-efficient sub-graph description of IOTA’s tangle.",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "ts-node run.ts",
+        "tsc": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ovanwijk/tangle-pathway.git"
+    },
+    "author": "Olaf van Wijk",
+    "license": "GPLv3",
+    "devDependencies": {
+        "typescript": "^3.3.3333",
+        "@types/node": "^10.11.7",
+        "ts-node-dev": "^1.0.0-pre.32",
+        "@types/bluebird": "^3.5.26"
+    },
+    "dependencies": {
+        "@iota/converter": "^1.0.0-beta.11",
+        "@iota/core": "^1.0.0-beta.11",
+        "@iota/kerl": "^1.0.0-beta.11",
+        "@iota/transaction-converter": "^1.0.0-beta.11",
+        "ngraph.graph": "0.0.17",
+        "ts-node": "^8.0.2"
+    },
+    "resolutions": {
+        "@types/bluebird": "3.5.26"
+    },
+    "bugs": {
+        "url": "https://github.com/ovanwijk/tangle-pathway/issues"
+    },
+    "homepage": "https://github.com/ovanwijk/tangle-pathway#readme"
+}
